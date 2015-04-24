@@ -23,6 +23,7 @@ class click:
         screen.fill((Aqua))
         screen.blit(font.render('*You will be shown two numbers and an operator.', True, (Black)),(30,100))
         screen.blit(font.render('*Calculate the answer before it disappears.', True, (Black)),(30,150))
+        screen.blit(font.render('*After typing the answer, press ENTER key.', True, (Black)),(30,200))
         pygame.draw.rect(screen,(Pink), pygame.Rect(500,350,510,360),2)
         screen.blit(font.render('BACK', True, (Black)),(505,355))
         pygame.display.update()
@@ -59,7 +60,43 @@ class click:
                     (mouseX, mouseY) = pygame.mouse.get_pos()
                     if mouseX>500 and mouseX<600 and mouseY>350 and mouseY<400:
                         main()
-                
+    def key_input(self):
+        screen=pygame.display.set_mode([800,600])
+        font = pygame.font.SysFont('Times New Roman', 40)
+        events = pygame.event.get()
+        x=0
+        while 1:
+            for event in pygame.event.get():
+                if event.type is pygame.QUIT: 
+                    pygame.quit()
+                    sys.exit()
+                    pygame.display.flip()
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_KP0 or event.key == pygame.K_0:
+                        x=0+x*10
+                    elif event.key == pygame.K_KP1 or event.key == pygame.K_1:
+                        x=1+x*10
+                    elif event.key == pygame.K_KP2 or event.key == pygame.K_2:
+                        x=2+x*10
+                    elif event.key == pygame.K_KP3 or event.key == pygame.K_3:
+                        x=3+x*10
+                    elif event.key == pygame.K_KP4 or event.key == pygame.K_4:
+                        x=4+x*10
+                    elif event.key == pygame.K_KP5 or event.key == pygame.K_5:
+                        x=5+x*10
+                    elif event.key == pygame.K_KP6 or event.key == pygame.K_6:
+                        x=6+x*10
+                    elif event.key == pygame.K_KP7 or event.key == pygame.K_7:
+                        x=7+x*10
+                    elif event.key == pygame.K_KP8 or event.key == pygame.K_8:
+                        x=8+x*10
+                    elif event.key == pygame.K_KP9 or event.key == pygame.K_9:
+                        x=9+x*10
+                    elif event.key == pygame.K_RETURN:                        
+                        return x
+                screen.fill((Gray))
+                screen.blit(font.render(str(x), True, (Black)),(385,290))
+                pygame.display.update()
     def play(self,x,y):
         self.flag=1
         sl=2.8
@@ -130,7 +167,9 @@ class click:
             time.sleep(sl)
             screen.fill(Gray)
             pygame.display.update()
-            ans=input("Ans: ")
+
+            temp=z
+            ans=self.key_input()
             stack1.push(v1,op,v2,ans)
             if ans is z:
                 screen.fill((Gray))
@@ -152,6 +191,7 @@ class click:
                 name=raw_input("\nEnter Your name : ")
                 stack.push1(name,self.points)
                 print "\n\n_________\n"
+                print "\nYour answers : \n"
                 for i in range (0,len(stack1.a)):
                     print stack1.a[i],stack1.b[i],stack1.c[i],'=',stack1.d[i]
                 print "\n\n_________\n"
