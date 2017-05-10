@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ajaygovind/.android/build-cache/80b29542c9371cd7ad47c100f437dbe0a9959d8e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/pre-dexed/debug/classes_87d8d7a94f6d8947b8702ed4775c1028d8e806de.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95cac0d1fc3de7049c1fa4f8bf1881f30c2bd01b">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_36b375bd1511358ab7c9e9f5d64052bd931ef996/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/.android/build-cache/80b29542c9371cd7ad47c100f437dbe0a9959d8e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_87d8d7a94f6d8947b8702ed4775c1028d8e806de/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.1/6f3b8a24bf970f17289b234284c94f43eb42f0e4/slf4j-api-1.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f3b8a24bf970f17289b234284c94f43eb42f0e4">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/pre-dexed/debug/slf4j-api-1.6.1_94bfed70ebbf8c7aa5efbef7521763bfb9906122.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/.android/build-cache/66bde76454f960d67efe4d3d41e9a9a2a84b3efc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa25264df371b946e585767949409387590b5575/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ec8bda3c65724a8d613e4d3dc6737f7ebfeb86ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/org.osmdroid/osmdroid-android/4.3/2fcf7bc3cb27daa6e67c8990ea418d19f6b5b296/osmdroid-android-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2fcf7bc3cb27daa6e67c8990ea418d19f6b5b296">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/pre-dexed/debug/osmdroid-android-4.3_87c74b2314e5f0fa9d76e182efe627f9d30ad3a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/pre-dexed/debug/library-2.4.0_9cb919dbc0ad8a27a626de4bbb85e82dd4cf9764.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_9cb919dbc0ad8a27a626de4bbb85e82dd4cf9764/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajaygovind/.android/build-cache/66bde76454f960d67efe4d3d41e9a9a2a84b3efc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/pre-dexed/debug/classes_aa25264df371b946e585767949409387590b5575.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.1/6f3b8a24bf970f17289b234284c94f43eb42f0e4/slf4j-api-1.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f3b8a24bf970f17289b234284c94f43eb42f0e4">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/slf4j-api-1.6.1_94bfed70ebbf8c7aa5efbef7521763bfb9906122/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.6.1/58e59bfb3e247097b8122243b3bfe0049c8cfae8/slf4j-simple-1.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58e59bfb3e247097b8122243b3bfe0049c8cfae8">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/pre-dexed/debug/slf4j-simple-1.6.1_fec1a1d1b0e89bf8168d998e15c18d077d4afc37.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/org.osmdroid/osmdroid-android/4.3/2fcf7bc3cb27daa6e67c8990ea418d19f6b5b296/osmdroid-android-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2fcf7bc3cb27daa6e67c8990ea418d19f6b5b296">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/osmdroid-android-4.3_87c74b2314e5f0fa9d76e182efe627f9d30ad3a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ajaygovind/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.6.1/58e59bfb3e247097b8122243b3bfe0049c8cfae8/slf4j-simple-1.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58e59bfb3e247097b8122243b3bfe0049c8cfae8">
+        <dex dex="/home/ajaygovind/C-drive/Linux_Android_Projects/FancyPlaces-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/slf4j-simple-1.6.1_fec1a1d1b0e89bf8168d998e15c18d077d4afc37/classes.dex" />
+    </item>
+
+</items>
